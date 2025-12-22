@@ -13,18 +13,32 @@
     }
 </style>
 </head>
-<body>
+<body style="background-color:rgb(155, 252, 0);">
     <nav>
-    <p>
-    <a href="http://www.chrome.com">home</a>
-    </p>
-    <p>
-    <a href="http://www.chrome.com">services</a>
-    </p>
-    <p>
-    <a href="http://www.chrome.com">contact for support</a>
-    </p>
+   <button onclick="window.location.href='https://nconf.dac.gov.in/'">government schemes</button><br><br>
+    <button onclick="window.location.href='https://farmer.gov.in/'">weather updates</button><br><br>
+    <button onclick="window.location.href='https://krishijagran.com/'">crop information</button><br><br>
+    <button onclick="window.location.href='https://agricoop.nic.in/'">market prices</button> <br><br>
+    <button onclick="window.location.href='https://soilhealth.dac.gov.in/'">soil health</button><br><br>
+    <button onclick="window.location.href='https://farmer.gov.in/imagedefault/PMFBY_Home.aspx'">crop insurance</button><br><br>
+    <button onclick="window.location.href='https://www.youtube.com/@KrishiJagranOfficial'">agriculture videos</button><br><br>
+    <button onclick="window.location.href='https://www.icfre.gov.in/'">forestry information</button><br><br>
+    <button onclick="window.location.href='https://www.agricoop.nic.in/en/seed-industry'">seed information</button><br><br>
     </nav>
+    <style>
+        button{
+            background-color: lightgreen;
+            padding:10px;
+            width:200px;
+            font-size:16px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+        nav{
+            text-align: center;
+            margin-bottom:20px;
+        }
+    </style>
     <p1>
         <style>
             p{
@@ -50,6 +64,108 @@
     <video width="320" height="240" controls>
         <source src="C:\Users\s.poojitha\Desktop\wt_lab\farmvc.mp4" type="video/mp4">
     </video><br><br>
+    <style>
+        stable.soil-table{
+            border:"1";
+        }
+        .soil-table,th,td{
+            border:1px solid black;
+        }
+        .soil-table th,td{
+            text-align:center;
+            background-color: lightgreen;
+        }
+        .soil-table th{
+            background-color:brown;
+        }
+        </style>
+    <table class="soil-table">
+        <tr>
+            <th>soil type</th>
+            <th>ph range</th>
+        </tr>
+        <tr>
+            <td>sandy soil</td>
+            <td>5.5-7.0</td>
+        </tr>
+        <tr>
+            <td>clay soil</td>
+            <td>5.5-7.5</td>
+        </tr>
+        <tr>
+            <td>loamy soil</td>
+            <td>6.0-7.0</td>
+        </tr>
+        <tr>
+            <td>peaty soil</td>
+            <td>3.0-5.0</td>
+        </tr>
+         <tr>
+            <td>chalky soil</td>
+            <td>7.1-8.5</td>
+        </tr>
+         <tr>
+            <td>silty soil</td>
+            <td>6.0-7.5</td>
+        </tr>
+    </table><br><br>
+     <table border="1">
+        <tr>
+            <th style="background-color: tomato;">fertilizers</th>
+            <th style="background-color: tomato;">price</th>
+        </tr>
+        <tr>
+            <td style="background-color: light green;">urea</td>
+            <td style="background-color: light green;">$8</td>
+        </tr>
+        <tr>
+            <td style="background-color: light green;">dap</td>
+            <td style="background-color: light green;">$25</td>
+        </tr>
+        <tr>
+            <td style="background-color: light green;">mop</td>
+            <td style="background-color: light green;">$20</td>
+        </tr>
+        <tr>
+            <td style="background-color: light green;">npk</td>
+            <td style="background-color: light green;">$30</td>
+        </tr> 
+    </table><br><br>
+     <table class="pesticide-table">
+        <link rel="stylesheet" href="style.css">
+        <tr>
+            <th>pesticide name</th>
+            <th>price</th>
+        </tr>
+        <tr>
+            <td>herbicides</td>
+            <td>$15</td>
+        </tr>
+        <tr>
+            <td>insecticides</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td>neem oil</td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td>imidacloprid</td>
+            <td>$30</td>
+        </tr>
+         <tr>
+            <td>mancozeb</td>
+            <td>$50</td>
+        </tr>
+    </table><br><br>
+    <iframe src="farm-rooster-63323.mp3"></iframe>
+    <br><br>
+    <iframe src="cow.mp3"
+    style="border: none;"></iframe>
+    <br><br>
+
+    </style>
+    <div class="form">
     <button onclick="alert('welcome to smart kisan')">click me</button><br><br>
     <label>enter your name</label>
     <input type="text" placeholder="enter your full name"><br><br>
@@ -61,7 +177,38 @@
     <option value="laterite soil">laterite soil</option>
     <option value="desert soil">desert soil</option>        
     </select><br><br>
-    <button onclick="alert('thank you for visiting smart kisan')">exit</button>
+    <select>
+        <label>select your crop</label>
+        <input type="radio" name="crop" value="rice">rice
+        <input type="radio" name="crop" value="wheat">wheat
+        <input type="radio" name="crop" value="maize">maize
+        <input type="radio" name="crop" value="cotton">cotton
+    </select>
+    <br><br>
+    <label>enter your native</label>
+    <textarea rows="4" cols="50" placeholder="enter your address here"></textarea>><br><br>
+    <label>enter the date</label>
+    <input type="date"><br><br>
+    <label>enter the time</label>
+    <input type="time"><br><br>
+    <button type="submit">submit</button><br><br>
+    </div>
+    <style>
+        .form{
+            background-color: lightblue;
+            padding:20px;
+            width:400px;
+            border-radius:10px;
+            font-family: Arial, Helvetica, sans-serif;
+            align-items: center;
+        }
+        label{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        input,type,select,textarea{
+            margin-top:10px;
+        }
+    </style>
 </body>
 </html>
 
