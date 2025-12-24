@@ -13,9 +13,9 @@
     }
 </style>
 </head>
-<body style="background-color:rgb(155, 252, 0);">
+<body style="background-color:rgba(211, 250, 105, 1);">
     <nav>
-   <button onclick="window.location.href='https://nconf.dac.gov.in/'">government schemes</button><br><br>
+    <button onclick="window.location.href='https://nconf.dac.gov.in/'">government schemes</button><br><br>
     <button onclick="window.location.href='https://farmer.gov.in/'">weather updates</button><br><br>
     <button onclick="window.location.href='https://krishijagran.com/'">crop information</button><br><br>
     <button onclick="window.location.href='https://agricoop.nic.in/'">market prices</button> <br><br>
@@ -29,7 +29,7 @@
         button{
             background-color: lightgreen;
             padding:10px;
-            width:200px;
+            width:200px;    
             font-size:16px;
             border-radius:5px;
             cursor:pointer;
@@ -64,6 +64,8 @@
     <video width="320" height="240" controls>
         <source src="C:\Users\s.poojitha\Desktop\wt_lab\farmvc.mp4" type="video/mp4">
     </video><br><br>
+    <!--display the below 3 tables in a row-->
+    <div style="display: flex; justify-content: space-around;">
     <style>
         stable.soil-table{
             border:"1";
@@ -158,7 +160,13 @@
             <td>$50</td>
         </tr>
     </table><br><br>
-    <iframe src="farm-rooster-63323.mp3"></iframe>
+    </div>
+
+    <iframe 
+    src="problemsvideo.mp4"
+    width="500"
+    height="300">
+    </iframe>
     <br><br>
     <iframe src="cow.mp3"
     style="border: none;"></iframe>
