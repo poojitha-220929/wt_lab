@@ -15,6 +15,7 @@
 </head>
 <body style="background-color:rgba(211, 250, 105, 1);">
     <nav>
+    <button onclick="window.location.href='C:\\Users\\s.poojitha\\Desktop\\wt_lab\\login.html'">login</button><br><br>
     <button onclick="window.location.href='https://nconf.dac.gov.in/'">government schemes</button><br><br>
     <button onclick="window.location.href='https://farmer.gov.in/'">weather updates</button><br><br>
     <button onclick="window.location.href='https://krishijagran.com/'">crop information</button><br><br>
@@ -217,6 +218,23 @@
             margin-top:10px;
         }
     </style>
+    <script>
+        function claculateCropYield(area,yieldPerAcre){
+            return area*yieldPerAcre;
+        }
+        console.log(claculateCropYield(5,20));
+        const checkSoilType=function(soil){
+            return soil=="black"?"good for cotton":"check crop suitability";
+        };
+        console.log(checkSoilType("black"));
+        const calculateWaterNeed=(crop,litersPerAcre)=>
+            "water needed for $[crop]:$[litersPerAcre]liters";
+        console.log(calculateWaterNeed("rice",500000));
+        (function(){
+            console.log("welcome to farmng portal");
+        })();
+    </script>
+
 </body>
 </html>
 
