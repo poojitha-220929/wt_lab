@@ -1,0 +1,16 @@
+.pesticide-table{
+    background-color:goldenrod;
+    border-collapse:collapse;
+    width: 60px;
+}
+.pesticide-table th, .pesticide-table td{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.pesticide-table th{
+    background-color:darkorange;
+}
+.pesticide-table td{
+    background-color:orange;
+}
