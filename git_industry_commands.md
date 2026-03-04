@@ -16,3 +16,12 @@ sets or displays the global username used for git commits.
 (global_username.png)
 
 
+## command:git config --global user.email
+## syntax:
+git config --global user.name "your-email@example.com"
+### purpose:
+sets or displays the global email used for git commits.
+### screenshot proof:
+![Git Email](global_user.email.png)
+
+
