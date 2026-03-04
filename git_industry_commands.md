@@ -53,4 +53,16 @@ Initializes a new Git repository in the current folder. Creates a .git folder to
 ### Example:
 git init
 ### Screenshot Proof:
-![Git Init Output](git_init.png)
+![Git Init Output](git_init.png) 
+
+
+## Command: git clone
+### Syntax:
+git clone <repository-url>
+### Purpose:
+Copies a remote repository from GitHub (or another server) to your local computer.  
+Creates a folder with all files and full commit history.
+### Example:
+git clone https://github.com/your-username/php_farming.git
+### Screenshot Proof:
+![Git Clone Output](git_clone)
