@@ -43,3 +43,14 @@ Removes a specific Git configuration setting.
 git config --global --unset user.name
 ### Screenshot Proof:
 ![Git Unset Output](global_unset.png)
+
+
+## Command: git init
+### Syntax:
+git init
+### Purpose:
+Initializes a new Git repository in the current folder. Creates a .git folder to track changes.
+### Example:
+git init
+### Screenshot Proof:
+![Git Init Output](git_init.png)
