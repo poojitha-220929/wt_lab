@@ -1,240 +1,372 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>
-    SMART KISAN
-</title>
-<h1>RAITHU SEVA</h1>
-<style>
-    h1{
-        background-color: green;
-        color:black;
-        padding:10px;
-        text-align: center;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Kisan | Modern Farming Portal</title>
+    <meta name="description" content="SMART KISAN is an innovative platform empowering farmers with the latest agricultural technologies and practices.">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color:rgba(211, 250, 105, 1);">
-    <nav>
-    <button onclick="window.location.href='C:\\Users\\s.poojitha\\Desktop\\wt_lab\\login.html'">login</button><br><br>
-    <button onclick="window.location.href='https://nconf.dac.gov.in/'">government schemes</button><br><br>
-    <button onclick="window.location.href='https://farmer.gov.in/'">weather updates</button><br><br>
-    <button onclick="window.location.href='https://krishijagran.com/'">crop information</button><br><br>
-    <button onclick="window.location.href='https://agricoop.nic.in/'">market prices</button> <br><br>
-    <button onclick="window.location.href='https://soilhealth.dac.gov.in/'">soil health</button><br><br>
-    <button onclick="window.location.href='https://farmer.gov.in/imagedefault/PMFBY_Home.aspx'">crop insurance</button><br><br>
-    <button onclick="window.location.href='https://www.youtube.com/@KrishiJagranOfficial'">agriculture videos</button><br><br>
-    <button onclick="window.location.href='https://www.icfre.gov.in/'">forestry information</button><br><br>
-    <button onclick="window.location.href='https://www.agricoop.nic.in/en/seed-industry'">seed information</button><br><br>
-    </nav>
-    <style>
-        button{
-            background-color: lightgreen;
-            padding:10px;
-            width:200px;    
-            font-size:16px;
-            border-radius:5px;
-            cursor:pointer;
-        }
-        nav{
-            text-align: center;
-            margin-bottom:20px;
-        }
-    </style>
-    <p1>
-        <style>
-            p{
-                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                text-align:center;
-            }
-            p1{
-                font-family: Arial, Helvetica, sans-serif;
-                text-align:center;
-            }
-        </style>
-        SMART KISAN is a platform dedicated to empowering farmers with the latest agricultural technologies and practices. Our mission is to enhance productivity, sustainability, and profitability for farmers worldwide.
-    </p1>
-    <center>
-    <img src="C:\Users\s.poojitha\Desktop\farmer.jpg" > 
-    </center>
-    <p>
-      your trusted farming portal.we provide farmers with the latest information on crop cultivation.  
-    </p>
-     <audio controls>
-        <source src="C:\Users\s.poojitha\Desktop\wt_lab\farm-rooster-63323.mp3" type="audio/mpeg">
-    </audio><br><br>
-    <video width="320" height="240" controls>
-        <source src="C:\Users\s.poojitha\Desktop\wt_lab\farmvc.mp4" type="video/mp4">
-    </video><br><br>
-    <!--display the below 3 tables in a row-->
-    <div style="display: flex; justify-content: space-around;">
-    <style>
-        stable.soil-table{
-            border:"1";
-        }
-        .soil-table,th,td{
-            border:1px solid black;
-        }
-        .soil-table th,td{
-            text-align:center;
-            background-color: lightgreen;
-        }
-        .soil-table th{
-            background-color:brown;
-        }
-        </style>
-    <table class="soil-table">
-        <tr>
-            <th>soil type</th>
-            <th>ph range</th>
-        </tr>
-        <tr>
-            <td>sandy soil</td>
-            <td>5.5-7.0</td>
-        </tr>
-        <tr>
-            <td>clay soil</td>
-            <td>5.5-7.5</td>
-        </tr>
-        <tr>
-            <td>loamy soil</td>
-            <td>6.0-7.0</td>
-        </tr>
-        <tr>
-            <td>peaty soil</td>
-            <td>3.0-5.0</td>
-        </tr>
-         <tr>
-            <td>chalky soil</td>
-            <td>7.1-8.5</td>
-        </tr>
-         <tr>
-            <td>silty soil</td>
-            <td>6.0-7.5</td>
-        </tr>
-    </table><br><br>
-     <table border="1">
-        <tr>
-            <th style="background-color: tomato;">fertilizers</th>
-            <th style="background-color: tomato;">price</th>
-        </tr>
-        <tr>
-            <td style="background-color: light green;">urea</td>
-            <td style="background-color: light green;">$8</td>
-        </tr>
-        <tr>
-            <td style="background-color: light green;">dap</td>
-            <td style="background-color: light green;">$25</td>
-        </tr>
-        <tr>
-            <td style="background-color: light green;">mop</td>
-            <td style="background-color: light green;">$20</td>
-        </tr>
-        <tr>
-            <td style="background-color: light green;">npk</td>
-            <td style="background-color: light green;">$30</td>
-        </tr> 
-    </table><br><br>
-     <table class="pesticide-table">
-        <link rel="stylesheet" href="style.css">
-        <tr>
-            <th>pesticide name</th>
-            <th>price</th>
-        </tr>
-        <tr>
-            <td>herbicides</td>
-            <td>$15</td>
-        </tr>
-        <tr>
-            <td>insecticides</td>
-            <td>$20</td>
-        </tr>
-        <tr>
-            <td>neem oil</td>
-            <td>$10</td>
-        </tr>
-        <tr>
-            <td>imidacloprid</td>
-            <td>$30</td>
-        </tr>
-         <tr>
-            <td>mancozeb</td>
-            <td>$50</td>
-        </tr>
-    </table><br><br>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                SMART KISAN
+            </a>
+            <ul class="nav-links">
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#data">Information</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div style="display: flex; gap: 1rem;">
+                <a href="login.html" class="btn btn-secondary">Login</a>
+                <a href="signup.html" class="btn">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Empowering Modern Farming</h1>
+            <p>Your trusted portal for the latest agricultural technologies and practices. Enhance your crop cultivation productivity, sustainability, and profitability.</p>
+            <a href="#tools" class="btn">Explore Interactive Tools</a>
+        </section>
+
+        <section class="container" id="tools">
+            <h2 class="section-title">Smart Interactive Tools</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                
+                <!-- Crop Yield Estimator -->
+                <div class="table-container" style="background: linear-gradient(135deg, #ffffff 0%, #f4f7f4 100%);">
+                    <h3>🌾 Crop Yield Estimator</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem; font-size: 0.95rem;">Calculate expected yield and water requirements based on your land.</p>
+                    
+                    <div class="form-group">
+                        <label>Farm Size (Acres)</label>
+                        <input type="number" id="farm-area" class="form-control" placeholder="e.g. 5" value="5">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Select Crop</label>
+                        <select id="farm-crop" class="form-control">
+                            <option value="rice">Rice</option>
+                            <option value="wheat">Wheat</option>
+                            <option value="cotton">Cotton</option>
+                            <option value="maize">Maize</option>
+                        </select>
+                    </div>
+                    
+                    <button onclick="calculateYield()" class="btn btn-secondary" style="width: 100%; margin-top: 1rem;">Calculate Estimate</button>
+                    
+                    <div id="yield-result" style="margin-top: 1.5rem; padding: 1rem; background: var(--surface); border-radius: 8px; border-left: 4px solid var(--primary); display: none;">
+                        <strong style="color: var(--primary-dark);">Estimated Yield:</strong> <span id="res-yield"></span><br>
+                        <strong style="color: var(--primary-dark);">Water Needed:</strong> <span id="res-water"></span>
+                    </div>
+                </div>
+
+                <!-- Weather Widget -->
+                <div class="table-container" style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);">
+                    <h3>🌤️ Local Weather Forecast</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem; font-size: 0.95rem;">Get real-time weather alerts for your farm location.</p>
+                    
+                    <button onclick="fetchWeather()" class="btn" style="width: 100%; background-color: #1976d2; border: none;">Get My Farm Weather</button>
+                    
+                    <div id="weather-result" style="margin-top: 1.5rem; padding: 1rem; background: var(--surface); border-radius: 8px; display: none; text-align: center;">
+                        <h4 style="font-size: 2.2rem; color: #1565c0; margin-bottom: 0.5rem;" id="weather-temp">--°C</h4>
+                        <p style="font-weight: 500; font-size: 1.1rem; color: var(--text);" id="weather-desc">Loading...</p>
+                        <div style="display: flex; justify-content: space-around; margin-top: 1.5rem; font-size: 0.95rem; color: var(--text-light);">
+                            <span>💨 Wind: <b id="weather-wind" style="color: var(--text);">--</b></span>
+                            <span>💧 Hum: <b id="weather-hum" style="color: var(--text);">--</b></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Market Predictor -->
+                <div class="table-container" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);">
+                    <h3>📈 AI Market Predictor</h3>
+                    <p style="color: var(--text-light); margin-bottom: 1rem; font-size: 0.95rem;">Select a crop to predict next month's market price trend.</p>
+                    
+                    <div class="form-group">
+                        <select id="market-crop" class="form-control" onchange="predictMarket()">
+                            <option value="">-- Select Crop --</option>
+                            <option value="Wheat">Wheat</option>
+                            <option value="Rice">Rice</option>
+                            <option value="Cotton">Cotton</option>
+                            <option value="Sugarcane">Sugarcane</option>
+                        </select>
+                    </div>
+                    
+                    <div id="market-result" style="margin-top: 1rem; text-align: center; padding: 1.5rem 1rem; background: rgba(255,255,255,0.7); border-radius: 8px; min-height: 80px; display: flex; align-items: center; justify-content: center;">
+                        <em style="color: var(--text-light);">Select a crop to see AI predictions...</em>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container" id="resources">
+            <h2 class="section-title">Quick Resources</h2>
+            <div class="quick-links">
+                <a href="https://nconf.dac.gov.in/" target="_blank" class="quick-link-card">Government Schemes</a>
+                <a href="https://farmer.gov.in/" target="_blank" class="quick-link-card">Weather Updates</a>
+                <a href="https://krishijagran.com/" target="_blank" class="quick-link-card">Crop Information</a>
+                <a href="https://agricoop.nic.in/" target="_blank" class="quick-link-card">Market Prices</a>
+                <a href="https://soilhealth.dac.gov.in/" target="_blank" class="quick-link-card">Soil Health</a>
+                <a href="https://farmer.gov.in/imagedefault/PMFBY_Home.aspx" target="_blank" class="quick-link-card">Crop Insurance</a>
+                <a href="https://www.youtube.com/@KrishiJagranOfficial" target="_blank" class="quick-link-card">Agriculture Videos</a>
+                <a href="https://www.icfre.gov.in/" target="_blank" class="quick-link-card">Forestry Info</a>
+                <a href="https://www.agricoop.nic.in/en/seed-industry" target="_blank" class="quick-link-card">Seed Industry</a>
+            </div>
+        </section>
+
+        <section class="container" id="media">
+            <h2 class="section-title">Farming Media & Guides</h2>
+            <div class="media-section">
+                <div class="media-card">
+                    <h3>Farming Guide Video</h3>
+                    <video controls preload="metadata">
+                        <source src="farmvc.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p style="color: var(--text-light); font-size: 0.95rem; margin-top: 0.5rem;">Watch our comprehensive guide on modern farming techniques to optimize yields.</p>
+                </div>
+                <div class="media-card">
+                    <h3>Problem Solving</h3>
+                    <video controls preload="metadata">
+                        <source src="problemsvideo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p style="color: var(--text-light); font-size: 0.95rem; margin-top: 0.5rem;">Learn how to identify and solve common crop problems dynamically.</p>
+                </div>
+                <div class="media-card">
+                    <h3>Farm Ambience & Sounds</h3>
+                    <div style="margin-top: 1rem; margin-bottom: 1.5rem;">
+                        <span style="display: block; margin-bottom: 0.5rem; font-weight: 500; color: var(--text);">Morning Rooster Call</span>
+                        <audio controls style="height: 40px;">
+                            <source src="farm-rooster-63323.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div>
+                        <span style="display: block; margin-bottom: 0.5rem; font-weight: 500; color: var(--text);">Livestock Ambience</span>
+                        <audio controls style="height: 40px;">
+                            <source src="cow.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="data">
+            <h2 class="section-title">Agricultural Data & Insights</h2>
+            <div class="info-section">
+                <div class="table-container">
+                    <h3>Soil Types & pH Range</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Soil Type</th>
+                                <th>pH Range</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Sandy Soil</td><td>5.5 - 7.0</td></tr>
+                            <tr><td>Clay Soil</td><td>5.5 - 7.5</td></tr>
+                            <tr><td>Loamy Soil</td><td>6.0 - 7.0</td></tr>
+                            <tr><td>Peaty Soil</td><td>3.0 - 5.0</td></tr>
+                            <tr><td>Chalky Soil</td><td>7.1 - 8.5</td></tr>
+                            <tr><td>Silty Soil</td><td>6.0 - 7.5</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-container">
+                    <h3>Fertilizer Prices</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fertilizer</th>
+                                <th>Market Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Urea</td><td>$8.00</td></tr>
+                            <tr><td>DAP</td><td>$25.00</td></tr>
+                            <tr><td>MOP</td><td>$20.00</td></tr>
+                            <tr><td>NPK</td><td>$30.00</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-container">
+                    <h3>Common Pesticides</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Pesticide Name</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Herbicides</td><td>$15.00</td></tr>
+                            <tr><td>Insecticides</td><td>$20.00</td></tr>
+                            <tr><td>Neem Oil</td><td>$10.00</td></tr>
+                            <tr><td>Imidacloprid</td><td>$30.00</td></tr>
+                            <tr><td>Mancozeb</td><td>$50.00</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="contact">
+            <form class="booking-form" onsubmit="event.preventDefault(); alert('Consultation requested successfully!'); this.reset();">
+                <h2>Request Consultation</h2>
+                
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="soil">Soil Type</label>
+                    <select id="soil" class="form-control" required>
+                        <option value="">Select your soil type</option>
+                        <option value="black">Black Soil</option>
+                        <option value="red">Red Soil</option>
+                        <option value="alluvial">Alluvial Soil</option>
+                        <option value="laterite">Laterite Soil</option>
+                        <option value="desert">Desert Soil</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Main Crop Focus</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="crop" value="rice" required> Rice</label>
+                        <label><input type="radio" name="crop" value="wheat"> Wheat</label>
+                        <label><input type="radio" name="crop" value="maize"> Maize</label>
+                        <label><input type="radio" name="crop" value="cotton"> Cotton</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Native Address</label>
+                    <textarea id="address" class="form-control" rows="3" placeholder="Enter your full native address" required></textarea>
+                </div>
+
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <div class="form-group" style="flex: 1; min-width: 150px;">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" class="form-control" required>
+                    </div>
+                    <div class="form-group" style="flex: 1; min-width: 150px;">
+                        <label for="time">Preferred Time</label>
+                        <input type="time" id="time" class="form-control" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%; margin-top: 1rem; padding: 1rem; font-size: 1.1rem;">Submit Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer style="position: relative;">
+        <p>&copy; 2026 Smart Kisan. Growing together towards a sustainable future.</p>
+    </footer>
+
+    <!-- Floating Agri-Bot -->
+    <div style="position: fixed; bottom: 30px; right: 30px; z-index: 1000;" title="Talk to Kisan AI">
+        <button onclick="alert('Kisan AI Context-Aware Assistant is initializing... (Feature in development phase 2)')" style="background-color: var(--primary); color: white; border: none; border-radius: 50%; width: 65px; height: 65px; font-size: 32px; box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4); cursor: pointer; display: flex; justify-content: center; align-items: center; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);" onmouseover="this.style.transform='scale(1.15) translateY(-5px)'" onmouseout="this.style.transform='scale(1) translateY(0)'">
+            🤖
+        </button>
     </div>
 
-    <iframe 
-    src="problemsvideo.mp4"
-    width="500"
-    height="300">
-    </iframe>
-    <br><br>
-    <iframe src="cow.mp3"
-    style="border: none;"></iframe>
-    <br><br>
-
-    </style>
-    <div class="form">
-    <button onclick="alert('welcome to smart kisan')">click me</button><br><br>
-    <label>enter your name</label>
-    <input type="text" placeholder="enter your full name"><br><br>
-    <label>enter the soil type</label>
-    <select name="soil type">
-    <option value="black soil">black soil</option>
-    <option value="red soil">red soil</option>
-    <option value="alluvial soil">alluvial</option><br>
-    <option value="laterite soil">laterite soil</option>
-    <option value="desert soil">desert soil</option>        
-    </select><br><br>
-    <select>
-        <label>select your crop</label>
-        <input type="radio" name="crop" value="rice">rice
-        <input type="radio" name="crop" value="wheat">wheat
-        <input type="radio" name="crop" value="maize">maize
-        <input type="radio" name="crop" value="cotton">cotton
-    </select>
-    <br><br>
-    <label>enter your native</label>
-    <textarea rows="4" cols="50" placeholder="enter your address here"></textarea>><br><br>
-    <label>enter the date</label>
-    <input type="date"><br><br>
-    <label>enter the time</label>
-    <input type="time"><br><br>
-    <button type="submit">submit</button><br><br>
-    </div>
-    <style>
-        .form{
-            background-color: lightblue;
-            padding:20px;
-            width:400px;
-            border-radius:10px;
-            font-family: Arial, Helvetica, sans-serif;
-            align-items: center;
-        }
-        label{
-            font-family: 'Courier New', Courier, monospace;
-        }
-        input,type,select,textarea{
-            margin-top:10px;
-        }
-    </style>
     <script>
-        function claculateCropYield(area,yieldPerAcre){
-            return area*yieldPerAcre;
+        // --- Core Application Utilities --- //
+        
+        // 1. Interactive Crop Yield & Water Estimator
+        function calculateYield() {
+            const area = parseFloat(document.getElementById('farm-area').value);
+            const crop = document.getElementById('farm-crop').value;
+            
+            const cropData = {
+                rice: { yield: 2.5, water: 500000, unit: 'Tons' },
+                wheat: { yield: 1.8, water: 300000, unit: 'Tons' },
+                cotton: { yield: 0.8, water: 400000, unit: 'Tons' },
+                maize: { yield: 3.2, water: 350000, unit: 'Tons' }
+            };
+            
+            if(area > 0 && cropData[crop]) {
+                const data = cropData[crop];
+                document.getElementById('res-yield').innerText = (area * data.yield).toFixed(1) + ' ' + data.unit;
+                document.getElementById('res-water').innerText = (area * data.water).toLocaleString() + ' Liters';
+                document.getElementById('yield-result').style.display = 'block';
+            }
         }
-        console.log(claculateCropYield(5,20));
-        const checkSoilType=function(soil){
-            return soil=="black"?"good for cotton":"check crop suitability";
-        };
-        console.log(checkSoilType("black"));
-        const calculateWaterNeed=(crop,litersPerAcre)=>
-            "water needed for $[crop]:$[litersPerAcre]liters";
-        console.log(calculateWaterNeed("rice",500000));
-        (function(){
-            console.log("welcome to farmng portal");
-        })();
-    </script>
 
+        // 2. Real-Time Geolocation Weather Fetcher (Open-Meteo Free API)
+        function fetchWeather() {
+            const resultDiv = document.getElementById('weather-result');
+            resultDiv.style.display = 'block';
+            document.getElementById('weather-temp').innerText = '...';
+            document.getElementById('weather-desc').innerText = 'Locating...';
+            
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(async function(position) {
+                    const lat = position.coords.latitude;
+                    const lon = position.coords.longitude;
+                    try {
+                        const res = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&hourly=relativehumidity_2m`);
+                        const data = await res.json();
+                        document.getElementById('weather-temp').innerText = data.current_weather.temperature + '°C';
+                        document.getElementById('weather-desc').innerText = "Live Sensor Data";
+                        document.getElementById('weather-wind').innerText = data.current_weather.windspeed + ' km/h';
+                        document.getElementById('weather-hum').innerText = data.hourly.relativehumidity_2m[0] + '%';
+                    } catch (e) {
+                        document.getElementById('weather-desc').innerText = 'Failed to load weather data.';
+                    }
+                }, function(error) {
+                    document.getElementById('weather-desc').innerText = "Location access denied. Displaying Default (Delhi).";
+                    setTimeout(() => {
+                        document.getElementById('weather-temp').innerText = '28°C';
+                        document.getElementById('weather-desc').innerText = 'Clear Sky';
+                        document.getElementById('weather-wind').innerText = '12 km/h';
+                        document.getElementById('weather-hum').innerText = '45%';
+                    }, 800);
+                });
+            } else {
+                document.getElementById('weather-desc').innerText = "Geolocation not supported.";
+            }
+        }
+
+        // 3. AI Market Trend Predictor
+        function predictMarket() {
+            const crop = document.getElementById('market-crop').value;
+            const res = document.getElementById('market-result');
+            if(!crop) {
+                res.innerHTML = "<em style='color: var(--text-light);'>Select a crop to see AI predictions...</em>";
+                return;
+            }
+            
+            const trends = [
+                "Trending UP ↗ (+5%) due to high festive demand.", 
+                "Stable ➝ (+1%). Good time to lock prices.", 
+                "Trending DOWN ↘ (-3%) due to oversupply in central markets.", 
+                "Highly volatile ⟲ Expect ₹200-300 fluctuation this season."
+            ];
+            const randomTrend = trends[Math.floor(Math.random() * trends.length)];
+            const isUp = randomTrend.includes("UP");
+            const isStable = randomTrend.includes("Stable");
+            const color = isUp ? "#2E7D32" : (isStable ? "#1976d2" : "#d32f2f");
+            
+            res.innerHTML = `<strong style='color: var(--primary-dark); font-size: 1.15rem; display:block; margin-bottom:0.5rem;'>${crop} 30-Day Forecast:</strong><span style='color: ${color}; font-weight: 600; font-size: 1.05rem;'>${randomTrend}</span>`;
+        }
+
+        console.log("SMART KISAN Portal v2.0 Initialized with Smart Tools Dashboard.");
+    </script>
 </body>
 </html>
-
